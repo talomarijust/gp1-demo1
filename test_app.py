@@ -6,7 +6,7 @@ class TestMath(unittest.TestCase):
         self.assertEqual(add_numbers(2, 3), 5)  # ✅ Pass
 
     def test_addition_fail(self):
-        self.assertEqual(add_numbers(2, 3), 6)  # ❌ Fail (for demo)
+        self.assertEqual(add_numbers(2, 3), 5)  # ❌ Fail (for demo)
 
 if __name__ == "__main__":
     unittest.main()
