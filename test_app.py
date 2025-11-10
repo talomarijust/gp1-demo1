@@ -5,4 +5,4 @@ def test_addition_correct():
 
 def test_addition_fail():
     # This test will fail intentionally to demonstrate CI catching it
-    assert add_numbers(2, 3) == 5  # nosec B101
+    assert add_numbers(2, 3) == 6  # nosec B101
